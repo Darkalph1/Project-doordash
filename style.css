@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-
-.top-section-380px{
-   
-
+.btn{
+    border: none;
+    background-color: #fff;
 }
 
 .sign-button-section{
@@ -20,28 +19,28 @@
 
 .sign-in-btn-wrapper{
     color: #fff;
-    padding: 10px;
+    padding: 15px;
     font-weight: 600;
     cursor: pointer;
 }
 
 .sign-up-btn-wrapper{
     background-color: #fff;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 15px;
+    border-radius: 15px;
     font-weight: 600;
     cursor: pointer;
 }
 
 .top-section-380px img{
-    height: 20px;
+    height: 30px;
 }
 
 .banner-wrapper-380px{
     background-image: url(assets/banner-background-img.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 120px 10px 50px 10px;
+    padding: 100px 10px 50px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -55,7 +54,7 @@
 
 .banner-logo-wrapper img{
     border-radius: 20px;
-    height: 50px;    
+    height: 70px;    
 }
 
 .banner-heading-wrapper{
@@ -63,7 +62,7 @@
     text-align: center;
     padding: 20px 15px;
     color: #fff;
-    font-size: 2.3em;
+    font-size: 2.1em;
     font-weight: 600;
 }
 
@@ -78,7 +77,7 @@
     display: flex;
     align-self: center;
     border-radius: 20px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     gap: 5px;
     justify-content: space-evenly;
     background-color: #fff;
@@ -107,15 +106,14 @@
 
 .banner-last-section-wrapper{
     display: flex;
-    margin-top: 20px;
-    flex: 1 0 100%;
-    justify-content: center;
+    margin-top: 5px;
+    justify-content: space-evenly;
 }
 
 .banner-last-section-wrapper-1{
     display: flex;
-    flex-basis: 60%;
     flex-wrap: wrap;
+    flex: 0 0 70%;
     background-color: #fff;
     
 }
@@ -127,10 +125,11 @@
 .use-current-location-wrapper{
     display: flex;
     align-self: center;
-    /* justify-content: center; */
     gap: 10px;
     flex: 0 0 100%;
     border: 1px solid #dfdfdf;
+    font-weight: bold;
+    cursor: pointer;
 }
 .use-current-location-span-wrapper{
     display: flex;
@@ -140,8 +139,64 @@
 .save-address-wrapper{
     display: flex;
     align-self: center;
-    /* justify-content: center; */
     gap: 10px;
     flex:0 0 100%;
     border: 1px solid #dfdfdf;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.save-adress-span-wrapper{
+    display: flex;
+    align-self: center;
+}
+
+
+/* second section */
+
+.choices-wrapper{
+    padding: 8px;
+    margin: 40px 0;
+}
+
+.choices-wrapper-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.choice-wrapper{
+    display: flex;
+    padding: 16px;
+    gap: 32px;
+}
+
+.choice-img-wrapper img{
+    height: 90px;
+    width: 80px;
+}
+
+.choice-explaination-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.choice-heading-wrapper{
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+.choice-p-wrapper{
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-weight: bold;
+    opacity: 0.9;
+    
+}
+
+.choice-btn{
+    color: red;
+    cursor: pointer;
 }
