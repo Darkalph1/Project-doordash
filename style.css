@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.top-section-380px{
+   
+
+}
+
+.sign-button-section{
+    position: absolute;
+    display: flex;
+    right: 5%;
+    top: 2%;
+    gap: 10px;
+}
+
+.sign-in-btn-wrapper{
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sign-up-btn-wrapper{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.top-section-380px img{
+    height: 20px;
+}
+
+.banner-wrapper-380px{
+    background-image: url(assets/banner-background-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 120px 10px 50px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner-logo-wrapper{
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-logo-wrapper img{
+    border-radius: 20px;
+    height: 50px;    
+}
+
+.banner-heading-wrapper{
+    flex: 1 0 100%;
+    text-align: center;
+    padding: 20px 15px;
+    color: #fff;
+    font-size: 2.3em;
+    font-weight: 600;
+}
+
+
+.banner-search-wrapper{
+    display: flex;
+    justify-content: center;
+    flex: 1 0 100%;
+}
+
+.banner-search-wrapper-1{
+    display: flex;
+    align-self: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+    gap: 5px;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+
+.banner-search-img-wrapper{
+    display: flex;
+    align-self: center;
+}
+
+.banner-input-wrapper{
+    display: flex;
+    align-self: center;
+    border: none;
+}
+
+.banner-input-wrapper input{
+    border: none;
+}
+
+.banner-arrow-wrapper{
+    display: flex;
+    align-self: center;
+}
+
+
+.banner-last-section-wrapper{
+    display: flex;
+    margin-top: 20px;
+    flex: 1 0 100%;
+    justify-content: center;
+}
+
+.banner-last-section-wrapper-1{
+    display: flex;
+    flex-basis: 60%;
+    flex-wrap: wrap;
+    background-color: #fff;
+    
+}
+
+.banner-last-section-wrapper-1 img{
+    height: 30px;
+}
+
+.use-current-location-wrapper{
+    display: flex;
+    align-self: center;
+    /* justify-content: center; */
+    gap: 10px;
+    flex: 0 0 100%;
+    border: 1px solid #dfdfdf;
+}
+.use-current-location-span-wrapper{
+    display: flex;
+    align-self: center;
+}
+
+.save-address-wrapper{
+    display: flex;
+    align-self: center;
+    /* justify-content: center; */
+    gap: 10px;
+    flex:0 0 100%;
+    border: 1px solid #dfdfdf;
+}
