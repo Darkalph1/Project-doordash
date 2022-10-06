@@ -282,6 +282,7 @@
 footer.footer-345px{
     transform: translateY(100px);   
     background-color: black; 
+    padding: 20px 0;
 }
 
 .city-cuisines-near-wrapper-345px{
@@ -361,6 +362,7 @@ footer.footer-345px{
 .footer-345px-2-sec{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .app-store-google-play-wrapper{
@@ -479,6 +481,11 @@ footer.footer-345px{
 
 }
 
+.let-us-help-items:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
 .doing-business-wrapper-345px{
     display: flex;
     flex-wrap: wrap;
@@ -512,4 +519,68 @@ footer.footer-345px{
 .doing-business-item:hover{
     text-decoration: underline;
     opacity: 1;    
+}
+
+/* lastsection */
+
+.footer-345px-3-sec{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.footer-social-img-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-social-img-wrapper img{
+    height: 22px;
+    opacity: 0.8;
+}
+
+.twitter-logo-wrapper img{
+    border-radius: 20px;
+    height: 27px;
+}
+
+.footer-social-img-wrapper img:hover{
+    opacity: 1;
+}
+
+.footer-345px-last-section-policy{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.policy-sec-doordash-logo img{
+    height: 28px;
+
+}
+
+.policy-sec-item{
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+    color:#dfdfdf;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+.policy-sec-item:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.copy-right:hover{
+    text-decoration: none;
+    cursor: text;
+    opacity: 0.8;
+}
+.policy-sec-doordash-logo:hover{
+    opacity: 0.8;
 }
