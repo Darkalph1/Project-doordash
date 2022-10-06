@@ -27,7 +27,7 @@
 .sign-up-btn-wrapper{
     background-color: #fff;
     padding: 10px 15px;
-    border-radius: 15px;
+    border-radius: 20px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -59,11 +59,17 @@
 
 .banner-heading-wrapper{
     flex: 1 0 100%;
+    display: flex;
     text-align: center;
+    justify-content: center;
     padding: 20px 15px;
     color: #fff;
     font-size: 2.1em;
     font-weight: 600;
+}
+
+.banner-heading-wrapper span{
+    flex: 0 0 400px;
 }
 
 
@@ -86,6 +92,10 @@
 .banner-search-img-wrapper{
     display: flex;
     align-self: center;
+}
+
+.banner-location-img-wrapper-768px{
+    display: none;
 }
 
 .banner-input-wrapper{
@@ -156,7 +166,9 @@
 
 .choices-wrapper{
     padding: 8px;
-    margin: 40px 0;
+    margin: 40px auto;
+    max-width: 513px;
+
 }
 
 .choices-wrapper-1{
@@ -583,4 +595,198 @@ footer.footer-345px{
 }
 .policy-sec-doordash-logo:hover{
     opacity: 0.8;
+}
+
+@media screen and (min-width: 490px){
+
+    .sec-3-part2-wrapper{
+        top: 250px;
+    }
+
+    footer.footer-345px{
+        transform: translateY(250px);
+    }
+}
+
+
+@media screen and (min-width: 768px){
+
+    /* top banner */
+
+    .banner-search-wrapper-1{
+        flex: 0 0 380px;
+        justify-content: flex-start;
+    }
+
+    .banner-search-img-wrapper{
+        display: none;
+    }
+
+    .banner-location-img-wrapper-768px{
+        display: flex;
+        align-self: center;
+    }
+
+    .banner-location-img-wrapper-768px img{
+        height: 20px;
+    }
+
+    .banner-input-wrapper{
+        flex: 0 0 300px;
+    }
+
+    .banner-last-section-wrapper-1{
+        flex: 0 0 380px;
+    }
+
+    .use-current-location-wrapper{
+        padding: 0 20px;
+    }
+
+    .save-address-wrapper{
+        padding: 0 20px;
+    }
+
+    /* section 3 */
+
+    .sec-3-part1-wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        z-index: 2;
+    }
+
+    .sec-3-part1-img-wrapper{
+        flex: 1 0 50%;
+    }
+
+    .sec-3-part1-img-wrapper img{
+        flex: 1 0 100%;
+    }
+
+    .sec-3-part1-content-wrapper{
+        margin: 0px auto 0 10px;
+        gap: 10px;
+        flex: 0 0 40%;
+        height: 90%;
+    }
+    
+    .sec-3-part1-heading-wrapper{
+        height: fit-content;
+        
+    }
+
+    .sec-3-part2-wrapper{
+        top: 250px;
+        padding: 200px 0px 96px;
+        display: flex;
+    }
+
+    .sec-3-part2-img-wrapper{
+        display: flex;
+        flex: 1 0 50%;
+    }
+
+    .sec-3-part2-img-wrapper img{
+        flex: 1 0 100%;
+    }
+
+    .sec-3-part2-content-wrapper{
+        flex: 1 0 40%;
+        margin: 0 auto 0 auto;
+        padding: 0 81px 0 20px;
+        height: 70%;
+        justify-content: center;
+    }
+
+    .sec-3-part2-heading-wrapper{
+        flex: 0 0 100%;
+    }
+
+    .sec-3-btn-wrapper{
+        flex: 0 0 100%;
+    }
+
+    /* footer section */
+
+    .city-cuisines-near-wrapper-345px{
+        flex-wrap: wrap;
+    }
+
+    .cities-wrapper-345px{
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .cities-list-345px a{
+        flex: 1 0 30%;
+    }
+
+    .cuisines-wrapper-345px{
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .cuisines-list-345px{
+        transform: translateY(0%);
+    }
+
+    .cuisines-list-345px a{
+        flex: 1 0 40%;
+    }
+
+    .get-to-know-list-wrapper-345px{
+        flex-wrap: nowrap;
+        gap: 1px;
+    } 
+
+    .get-to-know-list-wrapper-345px h2{
+        text-align: left;
+    }
+
+    .get-to-know-items{
+        text-align: left;
+    }
+
+    .get-to-know-us-wrapper-345px{
+        justify-content: flex-start;
+        flex: 1 0 33.333336%;
+    }
+
+    .let-us-help-wrapper-345px{
+        justify-content: flex-start;
+        flex: 1 0 33.333336%;
+        height: 30%;
+    }
+
+    .let-us-help-items{
+        text-align: left;
+    }
+
+    .doing-business-wrapper-345px{
+        justify-content: flex-end;
+        flex: 1 0 30.333336%;
+        height: 30%;
+    }
+
+    .doing-business-item{
+        text-align: left;
+    }
+
+    .footer-345px-3-sec{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .footer-345px-last-section-policy{
+        padding: 10px 0;
+    }
+
+    .facebook-logo-wrapper, .twitter-logo-wrapper, .instagram-logo-wrapper{
+        display: flex;
+        align-self: center;
+    }
+
+
+
 }
