@@ -19,14 +19,14 @@
 
 .sign-in-btn-wrapper{
     color: #fff;
-    padding: 15px;
+    padding: 10px 15px;
     font-weight: 600;
     cursor: pointer;
 }
 
 .sign-up-btn-wrapper{
     background-color: #fff;
-    padding: 15px;
+    padding: 10px 15px;
     border-radius: 15px;
     font-weight: 600;
     cursor: pointer;
@@ -206,7 +206,8 @@
     position: relative;
     width: 100%;
     display: flex;
-    gap: 100px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .sec-3-part1-wrapper{
@@ -259,7 +260,9 @@
 
 
 .sec-3-part2-wrapper{
-    transform: translateY(20%);
+    /* transform: translateY(10%); */
+    position: relative;
+    top: 100px;
     padding: 336px 0px  96px;
     background-color: #fff0ed;
 }
@@ -272,4 +275,83 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+/* footer */
+
+footer.footer-345px{
+    transform: translateY(100px);   
+    background-color: black; 
+}
+
+.city-cuisines-near-wrapper-345px{
+    display: flex;
+}
+
+.cities-wrapper-345px{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.cities-wrapper-345px h2{
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.cities-list-345px{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cities-list-345px a{
+    text-decoration: none;
+    color: rgb(240, 235, 235);
+    font-size: 0.9em;
+    opacity: 0.8;
+    flex: 1 0 100%;
+}
+
+.cities-list-345px a:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.cuisines-wrapper-345px{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.cuisines-wrapper-345px h2{
+    color: #fff;
+    /* height: fit-content; */
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.cuisines-list-345px{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform: translateY(-18%);
+}
+
+.cuisines-list-345px a{
+    text-decoration: none;
+    color: rgb(240, 235, 235);
+    font-size: 0.9em;
+    opacity: 0.8;
+    flex: 1 0 100%;
+}
+
+.cuisines-list-345px a:hover{
+    text-decoration: underline;
+    opacity: 1;
 }
