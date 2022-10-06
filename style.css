@@ -19,14 +19,14 @@
 
 .sign-in-btn-wrapper{
     color: #fff;
-    padding: 15px;
+    padding: 10px 15px;
     font-weight: 600;
     cursor: pointer;
 }
 
 .sign-up-btn-wrapper{
     background-color: #fff;
-    padding: 15px;
+    padding: 10px 15px;
     border-radius: 15px;
     font-weight: 600;
     cursor: pointer;
@@ -199,4 +199,388 @@
 .choice-btn{
     color: red;
     cursor: pointer;
+}
+
+/* section 3 */
+.sec-3-wrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sec-3-part1-wrapper{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.sec-3-part1-img-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 0 100%;
+}
+
+.sec-3-part1-img-wrapper img{
+   width: 80%;
+}
+
+.sec-3-part1-content-wrapper{
+    max-width: 400px;
+    padding-left: 16px;
+    padding-right: 81px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sec-3-part1-heading-wrapper{
+    font-size: 1.09em;
+}
+
+.sec-3-part1-p-wrapper{
+    font-size: 0.9em;
+    margin-bottom: 6px;
+}
+
+.sec-3-btn{
+    color: #fff;
+    background-color: red;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sec-3-part2-img-wrapper img{
+    width: 80%;
+}
+
+
+.sec-3-part2-wrapper{
+    /* transform: translateY(10%); */
+    position: relative;
+    top: 100px;
+    padding: 336px 0px  96px;
+    background-color: #fff0ed;
+}
+
+.sec-3-part2-content-wrapper{
+    max-width: 400px;
+    padding-left: 16px;
+    padding-right: 81px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* footer */
+
+footer.footer-345px{
+    transform: translateY(100px);   
+    background-color: black; 
+    padding: 20px 0;
+}
+
+.city-cuisines-near-wrapper-345px{
+    display: flex;
+}
+
+.cities-wrapper-345px{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.cities-wrapper-345px h2{
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.cities-list-345px{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cities-list-345px a{
+    text-decoration: none;
+    color: rgb(240, 235, 235);
+    font-size: 0.9em;
+    opacity: 0.8;
+    flex: 1 0 100%;
+}
+
+.cities-list-345px a:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.cuisines-wrapper-345px{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.cuisines-wrapper-345px h2{
+    color: #fff;
+    /* height: fit-content; */
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.cuisines-list-345px{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform: translateY(-18%);
+}
+
+.cuisines-list-345px a{
+    text-decoration: none;
+    color: rgb(240, 235, 235);
+    font-size: 0.9em;
+    opacity: 0.8;
+    flex: 1 0 100%;
+}
+
+.cuisines-list-345px a:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+/* footer second section */
+
+.footer-345px-2-sec{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.app-store-google-play-wrapper{
+    flex: 1 0 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.app-store-wrapper{
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.app-store-wrapper img{
+    width: 140px;
+    height: 50px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.app-store-wrapper img:hover{
+    opacity: 1;
+}
+
+.google-play-wrapper{
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.google-play-wrapper img{
+    width: 140px;
+    height: 50px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.google-play-wrapper img:hover{
+    opacity: 1;
+}
+
+.get-to-know-list-wrapper-345px{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.get-to-know-us-wrapper-345px{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.get-to-know-us-wrapper-345px h2{
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.get-to-know-us-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.get-to-know-items{
+    flex: 0 0 100%;
+    text-align: center;
+    text-decoration: none;
+    color:#dfdfdf;
+    opacity: 0.8;
+    font-size: 0.9em;
+}
+
+.get-to-know-items:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.let-us-help-wrapper-345px{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.let-us-help-wrapper-345px h2{
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    flex: 1 0 100%;
+    text-align: center;
+
+}
+
+.let-us-help-you-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.let-us-help-items{
+    flex: 0 0 100%;
+    text-align: center;
+    text-decoration: none;
+    color:#dfdfdf;
+    opacity: 0.8;
+    font-size: 0.9em;
+
+}
+
+.let-us-help-items:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.doing-business-wrapper-345px{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.doing-business-wrapper-345px h2{
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    flex: 1 0 100%;
+    text-align: center;    
+}
+
+.doing-business-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.doing-business-item{
+    flex: 0 0 100%;
+    text-align: center;
+    text-decoration: none;
+    color:#dfdfdf;
+    opacity: 0.8;
+    font-size: 0.9em;
+}
+
+.doing-business-item:hover{
+    text-decoration: underline;
+    opacity: 1;    
+}
+
+/* lastsection */
+
+.footer-345px-3-sec{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.footer-social-img-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-social-img-wrapper img{
+    height: 22px;
+    opacity: 0.8;
+}
+
+.twitter-logo-wrapper img{
+    border-radius: 20px;
+    height: 27px;
+}
+
+.footer-social-img-wrapper img:hover{
+    opacity: 1;
+}
+
+.footer-345px-last-section-policy{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.policy-sec-doordash-logo img{
+    height: 28px;
+
+}
+
+.policy-sec-item{
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+    color:#dfdfdf;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+.policy-sec-item:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.copy-right:hover{
+    text-decoration: none;
+    cursor: text;
+    opacity: 0.8;
+}
+.policy-sec-doordash-logo:hover{
+    opacity: 0.8;
 }
