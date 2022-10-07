@@ -73,7 +73,7 @@
 }
 
 .banner-heading-wrapper span{
-    flex: 0 0 400px;
+    flex: 0 0 350px;
 }
 
 
@@ -661,6 +661,8 @@ footer.footer-345px{
         display: flex;
         flex-direction: row-reverse;
         z-index: 2;
+        max-height: 400px;
+        max-width: 1200px;
     }
 
     .sec-3-part1-img-wrapper{
@@ -668,11 +670,12 @@ footer.footer-345px{
     }
 
     .sec-3-part1-img-wrapper img{
-        flex: 1 0 100%;
+        flex: 0 0 100%;
+        max-width: 546px;
     }
 
     .sec-3-part1-content-wrapper{
-        margin: 0px auto 0 10px;
+        margin: 0px auto 0 5%;
         padding-left: 30px;
         gap: 10px;
         flex: 0 0 40%;
@@ -686,17 +689,27 @@ footer.footer-345px{
 
     .sec-3-part2-wrapper{
         top: 250px;
-        padding: 200px 0px 96px;
+        padding: 200px 0 96px 2%;
         display: flex;
+        flex: 0 0 100%;
+        max-height: 700px;
+    }
+
+    .sec-3-part2-wrapper-1{
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .sec-3-part2-img-wrapper{
         display: flex;
-        flex: 1 0 50%;
+        flex: 0 0 50%;
     }
 
     .sec-3-part2-img-wrapper img{
         flex: 1 0 100%;
+        max-width: 546px;
     }
 
     .sec-3-part2-content-wrapper{
@@ -841,5 +854,83 @@ footer.footer-345px{
         height: 30%;
     }
 
+    .city-cuisines-near-wrapper-345px{
+        flex-wrap: nowrap;
+        margin-bottom: 20px;
+    }
+
     
+}
+
+@media screen and (min-width: 1100px){
+
+    .sec-3-part1-wrapper{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .sec-3-part1-content-wrapper{
+        font-size: 1.5em;
+        margin: 0 auto 0 1%;
+    }
+
+    .sec-3-part1-img-wrapper img{
+        max-width: 600px;        
+    }
+
+    .sec-3-part2-wrapper{
+        padding: 150px 0 96px 2%;
+        top: 300px;
+    }
+
+    .sec-3-part2-img-wrapper img{
+        max-width: 600px;
+    }
+
+    .sec-3-part2-content-wrapper{
+        font-size: 1.5em;
+    }
+
+    .city-cuisines-near-wrapper-345px, .footer-345px-2-sec, .footer-345px-3-sec{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .app-store-wrapper img, .google-play-wrapper img{
+        width: 170px;
+        height: 70px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    .banner-wrapper-380px{
+        background: url(assets/banner-background-1080px.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .choices-wrapper{
+        max-width: 1200px;
+    }
+    .choices-wrapper-1{
+        flex-wrap: nowrap;
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .choice-wrapper{
+        flex-wrap: wrap;
+        gap: 0px;
+        justify-content: center;
+    }
+
+    .choice-img-wrapper img{
+        width: 152px;
+        height: 152px;
+    }
+
+    .choice-explaination-wrapper{
+        justify-content: center;
+        text-align: center;
+    }
 }
