@@ -52,6 +52,10 @@
     justify-content: center;
 }
 
+.banner-logo-wrapper-960px{
+    display: none;
+}
+
 .banner-logo-wrapper img{
     border-radius: 20px;
     height: 70px;    
@@ -390,12 +394,14 @@ footer.footer-345px{
     flex: 1 0 100%;
     display: flex;
     justify-content: center;
+    padding: 10px 0 0 0;
 }
 
 .app-store-wrapper img{
     width: 140px;
     height: 50px;
     opacity: 0.8;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -407,12 +413,14 @@ footer.footer-345px{
     flex: 1 0 100%;
     display: flex;
     justify-content: center;
+    padding: 0 0 10px 0;
 }
 
 .google-play-wrapper img{
     width: 140px;
     height: 50px;
     opacity: 0.8;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -665,6 +673,7 @@ footer.footer-345px{
 
     .sec-3-part1-content-wrapper{
         margin: 0px auto 0 10px;
+        padding-left: 30px;
         gap: 10px;
         flex: 0 0 40%;
         height: 90%;
@@ -693,7 +702,7 @@ footer.footer-345px{
     .sec-3-part2-content-wrapper{
         flex: 1 0 40%;
         margin: 0 auto 0 auto;
-        padding: 0 81px 0 20px;
+        padding: 0 81px 0 30px;
         height: 70%;
         justify-content: center;
     }
@@ -789,4 +798,48 @@ footer.footer-345px{
 
 
 
+}
+
+@media screen and (min-width: 960px){
+    /* banner */
+    .banner-logo-wrapper{
+        display: none;
+    }
+
+    .banner-logo-wrapper-960px{
+        display: flex;
+    }
+
+    .banner-wrapper-380px{
+        background: url(assets/banner-background-960px.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding: 50px 10px 100px 10px;
+    }
+
+    .banner-heading-wrapper{
+        font-size: 4em;
+    }
+
+    .banner-heading-wrapper span{
+        flex: 0 0 700px;
+    }
+
+    .footer-345px-2-sec{
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 30%;
+    }
+
+    .get-to-know-list-wrapper-345px{
+        flex: 1 0 50%;
+    }
+
+    .app-store-google-play-wrapper{
+        flex: 1 0 20%;
+        height: 30%;
+    }
+
+    
 }
