@@ -98,6 +98,10 @@
     align-self: center;
 }
 
+.banner-arrow-wrapper-1200px{
+    display: none;
+}
+
 .banner-location-img-wrapper-768px{
     display: none;
 }
@@ -907,6 +911,26 @@ footer.footer-345px{
         background: url(assets/banner-background-1080px.png);
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .banner-arrow-wrapper{
+        display: none;
+    }
+
+    .banner-search-wrapper-1{
+        padding: 5px 10px;
+    }
+
+    .banner-arrow-wrapper-1200px{
+        display: flex;
+        align-self: center;
+
+    } 
+
+    .banner-arrow-wrapper-1200px img{
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
     }
 
     .choices-wrapper{
