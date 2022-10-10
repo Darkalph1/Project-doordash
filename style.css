@@ -280,7 +280,6 @@
 
 
 .sec-3-part2-wrapper{
-    /* transform: translateY(10%); */
     position: relative;
     top: 100px;
     padding: 336px 0px  96px;
@@ -352,7 +351,6 @@ footer.footer-345px{
 
 .cuisines-wrapper-345px h2{
     color: #fff;
-    /* height: fit-content; */
     font-size: 1.1em;
     margin-bottom: 20px;
 }
